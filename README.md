@@ -1,5 +1,5 @@
-#Project Description
-###THIS IS A PROJECT RECOVERED FROM THE WAYBACK MACHINE, SINCE THE ORIGINAL SOURCE REPOSITORY, HOSTED AT CODEPLEX.COM, IS LOST.
+# Project Description
+### THIS IS A PROJECT RECOVERED FROM THE WAYBACK MACHINE, SINCE THE ORIGINAL SOURCE REPOSITORY, HOSTED AT CODEPLEX.COM, IS LOST.
 
 
 Converts subtitles from DVDs and PGS (Bluray .sup) files into Advanced Substation Alpha and SRT text format using OCR (optical character recognition).
