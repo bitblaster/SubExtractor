@@ -1,0 +1,111 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DvdSubExtractor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DvdFolderPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OutputDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MinimumDvdTrackLength" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="SampleVideoLength" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300</Value>
+    </Setting>
+    <Setting Name="SampleVideoPlayerPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\VideoLAN\VLC\vlc.exe</Value>
+    </Setting>
+    <Setting Name="SubitleFileFontName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tahoma</Value>
+    </Setting>
+    <Setting Name="SubtitleStyle" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="SubtitleEditorPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\Aegisub\aegisub32.exe</Value>
+    </Setting>
+    <Setting Name="DgIndexPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\MeGUI\tools\dgindex\DGIndex.exe</Value>
+    </Setting>
+    <Setting Name="FontSizeAdjustmentPercent" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="SubtitleFontBold" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SubtitleFontOutline" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1.4</Value>
+    </Setting>
+    <Setting Name="SubtitleFontShadow" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">1.7</Value>
+    </Setting>
+    <Setting Name="SubtitleVerticalMargin" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="SubtitleHorizontal4x3Margin" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="SubtitleHorizontal16x9Margin" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60</Value>
+    </Setting>
+    <Setting Name="SubtitleForeColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">228, 223, 226</Value>
+    </Setting>
+    <Setting Name="SubtitleColorScheme" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="SubtitleBorderColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">224, 0, 0, 0</Value>
+    </Setting>
+    <Setting Name="SubtitleShadingColor" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">56, 0, 0, 0</Value>
+    </Setting>
+    <Setting Name="KerningAdjustMRU" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="SubtitleFontDefaultSize" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">32</Value>
+    </Setting>
+    <Setting Name="StoreSupTextInSourceDir" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RemoveSDHSet" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ScaleSubtitleBitmap" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="StoreSrtAsANSI" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DataFileInExeDirectory" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="InitialBrowseDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="InitialStepIsBrowse" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PositionSubs" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="SpanishSpecialCharacters" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="WaitForEnterDuringOcr" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FrenchSpecialCharacters" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="LargeMode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SavedKerningValues" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

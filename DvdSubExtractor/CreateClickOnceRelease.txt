@@ -1,0 +1,47 @@
+Build -> Publish DvdSubOcr
+
+location: E:\Install Programs\SubExtractor\
+
+From a Web site: http://SubExtractor.codeplex.com/releases/clickonce/
+
+Yes, online and offline
+
+Finish
+
+
+Copy OcrMap.bin to new E:\Install Programs\SubExtractor\Application Files\DvdSubExtractor_1_0_0_x directory
+
+rename to OcrMap.bin.deploy
+
+
+Open MageUI.exe
+
+Open DvdSubExtractor.exe.manifest in MageUI
+
+Goto File tab
+
+Deselect "When populating, add deploy extension"
+
+Populate
+
+Select DvdSubExtractor.application row and delete it
+
+Change OcrMap.bin.deploy type to Data File
+
+Save and Sign
+
+Open DvdSubExtractor.application in MageUI
+
+Application Reference Tab
+
+Select Manifest - same one - to recalculate hash
+
+Save and Sign
+
+Open DvdSubExtractor.application from 2 directories up in MageUI
+
+Application Reference Tab
+
+Select Manifest - same one - to recalculate hash
+
+Save and Sign

@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvdSubOcr", "DvdSubOcr\DvdSubOcr.csproj", "{F23F15F4-0267-486E-8E17-6C658E40C820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvdNavigatorCrm", "DvdNavigatorCrm\DvdNavigatorCrm.csproj", "{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvdSubExtractor", "DvdSubExtractor\DvdSubExtractor.csproj", "{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SubExtractorInstall", "SubExtractorInstall\SubExtractorInstall.vdproj", "{B8A8BAAE-94FE-42C1-A247-806F330B2733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F23F15F4-0267-486E-8E17-6C658E40C820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23F15F4-0267-486E-8E17-6C658E40C820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23F15F4-0267-486E-8E17-6C658E40C820}.Debug|x86.ActiveCfg = Debug|x86
+		{F23F15F4-0267-486E-8E17-6C658E40C820}.Debug|x86.Build.0 = Debug|x86
+		{F23F15F4-0267-486E-8E17-6C658E40C820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23F15F4-0267-486E-8E17-6C658E40C820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23F15F4-0267-486E-8E17-6C658E40C820}.Release|x86.ActiveCfg = Release|x86
+		{F23F15F4-0267-486E-8E17-6C658E40C820}.Release|x86.Build.0 = Release|x86
+		{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}.Debug|x86.ActiveCfg = Debug|x86
+		{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}.Debug|x86.Build.0 = Debug|x86
+		{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}.Release|x86.ActiveCfg = Release|x86
+		{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}.Release|x86.Build.0 = Release|x86
+		{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}.Debug|x86.ActiveCfg = Debug|x86
+		{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}.Debug|x86.Build.0 = Debug|x86
+		{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}.Release|x86.ActiveCfg = Release|x86
+		{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}.Release|x86.Build.0 = Release|x86
+		{B8A8BAAE-94FE-42C1-A247-806F330B2733}.Debug|Any CPU.ActiveCfg = Debug
+		{B8A8BAAE-94FE-42C1-A247-806F330B2733}.Debug|x86.ActiveCfg = Debug
+		{B8A8BAAE-94FE-42C1-A247-806F330B2733}.Release|Any CPU.ActiveCfg = Release
+		{B8A8BAAE-94FE-42C1-A247-806F330B2733}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

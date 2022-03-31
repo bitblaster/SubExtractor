@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DBB0CD6F-791D-4438-9725-7F4C3A45ADB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DvdSubExtractor</RootNamespace>
+    <AssemblyName>DvdSubExtractor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>E:\Install Programs\SubExtractor\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://subextractor.codeplex.com/releases/clickonce/</InstallUrl>
+    <ProductName>SubExtractor</ProductName>
+    <PublisherName>C. R. Meadowcroft</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>16</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EC13E06CAF096057D9858D2A0A27B9FA61B70A8C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DvdSubExtractor_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AudioTrackItem.cs" />
+    <Compile Include="ChooseSubtitlesStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChooseSubtitlesStep.designer.cs">
+      <DependentUpon>ChooseSubtitlesStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseTracksStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChooseTracksStep.Designer.cs">
+      <DependentUpon>ChooseTracksStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommentBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CommentBox.Designer.cs">
+      <DependentUpon>CommentBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAssFile.cs" />
+    <Compile Include="CreateSrtFile.cs" />
+    <Compile Include="CreateSubOptions.cs" />
+    <Compile Include="CreateSubtitleFileStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CreateSubtitleFileStep.Designer.cs">
+      <DependentUpon>CreateSubtitleFileStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DvdTrackItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enums.cs" />
+    <Compile Include="ExtractData.cs" />
+    <Compile Include="Interfaces.cs" />
+    <Compile Include="LoadFolderStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoadFolderStep.Designer.cs">
+      <DependentUpon>LoadFolderStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LocalizedStrings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="OcrBlocksStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OcrBlocksStep.Designer.cs">
+      <DependentUpon>OcrBlocksStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OcrFont.cs" />
+    <Compile Include="OcrFontList.cs" />
+    <Compile Include="OcrRectangle.cs" />
+    <Compile Include="OcrReviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OcrReviewForm.Designer.cs">
+      <DependentUpon>OcrReviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OcrWorkingData.cs" />
+    <Compile Include="OptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionsForm.Designer.cs">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RunExtractorStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RunExtractorStep.Designer.cs">
+      <DependentUpon>RunExtractorStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SdhSubLine.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="SpellCheckStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SpellCheckStep.Designer.cs">
+      <DependentUpon>SpellCheckStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TriangleFill.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TriangleFill.Designer.cs">
+      <DependentUpon>TriangleFill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WordSpacingStep.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WordSpacingStep.Designer.cs">
+      <DependentUpon>WordSpacingStep.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseSubtitlesStep.resx">
+      <DependentUpon>ChooseSubtitlesStep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseTracksStep.resx">
+      <DependentUpon>ChooseTracksStep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommentBox.resx">
+      <DependentUpon>CommentBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateSubtitleFileStep.resx">
+      <DependentUpon>CreateSubtitleFileStep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadFolderStep.resx">
+      <DependentUpon>LoadFolderStep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OcrBlocksStep.resx">
+      <DependentUpon>OcrBlocksStep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OcrReviewForm.resx">
+      <DependentUpon>OcrReviewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsForm.resx">
+      <DependentUpon>OptionsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunExtractorStep.resx">
+      <DependentUpon>RunExtractorStep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellCheckStep.resx">
+      <DependentUpon>SpellCheckStep.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubWizard.resx">
+      <DependentUpon>SubWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TriangleFill.resx">
+      <DependentUpon>TriangleFill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WordSpacingStep.resx">
+      <DependentUpon>WordSpacingStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <Content Include="OcrMapOrig.bin" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SubtitleTrackItem.cs" />
+    <Compile Include="SubWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubWizard.Designer.cs">
+      <DependentUpon>SubWizard.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DvdNavigatorCrm\DvdNavigatorCrm.csproj">
+      <Project>{17CEC523-AA01-4410-8BFA-4CAB1C97DD69}</Project>
+      <Name>DvdNavigatorCrm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DvdSubOcr\DvdSubOcr.csproj">
+      <Project>{F23F15F4-0267-486E-8E17-6C658E40C820}</Project>
+      <Name>DvdSubOcr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeftGreenArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RightGreenArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DownYellowArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RectanglePurple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if exist "$(ProjectDir)OcrMapOrig.bin" copy "$(ProjectDir)OcrMapOrig.bin" "$(TargetDir)"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(LOCALAPPDATA)\OcrMap.bin" copy "$(LOCALAPPDATA)\OcrMap.bin" "$(ProjectDir)"\OcrMapOrig.bin</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+
+Take letterbox subs over the widescreen versions as they're easier to OCR
+
+If the d2v file has problems (DgIndex creates d2v.bad and fix.txt files) you might have to set the order of TFM and TDeint by hand in the avs file.
+
+If the NeroAacEncode fails, try a constant bitrate encode.
+
+If the ac3 file is too big, and takes way too long to convert to aac, you can run DgIndex.exe standalone and extract a Wav file from the mpg encoded file 
+(even doing normalization at the same time). The problem is that some of the video has no audio. You'll probably need to offset the audio when you mux
+the video with it.
